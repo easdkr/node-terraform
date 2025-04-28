@@ -1,0 +1,11 @@
+dist
+terraform.sh
+terraform.tfstate
+node_modules
+package-lock.json
+
+terraform.tfvars
+.terraform.tfstate.backup
+.terraform
+.terraform/
+.terraform.lock.hcl
