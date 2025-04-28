@@ -1,7 +1,7 @@
 variable "aws_region" {
   description = "AWS region"
   type        = string
-  default     = "us-east-1"
+  default     = "ap-northeast-2" # 서울 리전
 }
 
 variable "vpc_cidr" {
@@ -19,7 +19,7 @@ variable "subnet_cidr" {
 variable "availability_zone" {
   description = "Availability zone for subnet"
   type        = string
-  default     = "us-east-1a"
+  default     = "ap-northeast-2" # 서울 리전
 }
 
 variable "instance_type" {
@@ -31,7 +31,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "AMI ID for EC2 instance"
   type        = string
-  default     = "ami-0c7217cdde317cfec"
+  default     = "ami-0c7217cdde317cfec" # Ubuntu
 }
 
 variable "app_name" {
